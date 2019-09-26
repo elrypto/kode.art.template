@@ -1,0 +1,1 @@
+kode.art.template - template project for the kode.art dApp
