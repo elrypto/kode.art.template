@@ -3,6 +3,8 @@ import Header from "./Header";
 
 
 export default function Main() {
+
+  const attribStyle = {}
   
   return (
       <React.Fragment>
@@ -21,6 +23,11 @@ export default function Main() {
         <a className="btn btn-outline-light btn-lg" href="#overview">See Rankings</a>
         <a className="btn btn-outline-light btn-lg" href="#overview">Submit Code</a>
       </div>
+      <span><a href="" 
+        onClick={() => {
+          window.open("https://unsplash.com/photos/46dgbaKZTjk");
+        }}
+      >Photo credit: Axi Aimee</a></span>
       <div id="overview" className="offset">
         <div className="col-12 narrow text-center">
           <h1>(k)ode.art code rankings</h1>
