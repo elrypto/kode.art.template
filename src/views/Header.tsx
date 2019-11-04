@@ -12,16 +12,21 @@ export default function Header() {
             data-target="#navbarResponsive">
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarResponsive">
+            <div id="navbarResponsive" className="collapse navbar-collapse" >
               <ul className="navbar-nav ml-auto">
-             
-                <li className="nav-item">
-                  <a className="nav-link" href="/test">test</a>
+      
+               <li className="nav-item">
+                  <a className="nav-link" href="/">home</a>
                 </li>
               
+                <li className="nav-item">
+                  <a className="nav-link active" href="/test">test</a>
+                </li>
+
               </ul>
             </div>
         </nav>
     </React.Fragment>
   )
 }
+
