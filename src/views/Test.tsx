@@ -1,5 +1,7 @@
 import React from 'react'
 import Web3Provider from 'web3-react';
+import { Button } from 'antd';
+import { notify } from '../common/Actions';
 
 
 
@@ -15,6 +17,14 @@ export default function Test() {
             <div className="heading-underline"></div>
            
               <p> Test something here </p>
+              <Button 
+                type="dashed"
+                onClick={ ()=> {
+                  notify('ok');
+                }}
+              >
+                Heres a button
+              </Button>
 
           </div>
         </div>
